@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RCB3_Interface", "RCB3_Interface\RCB3_Interface.vcproj", "{00690685-064B-47E0-9540-B71E592B0466}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestApp", "TestApp\TestApp.vcproj", "{A1BE29EA-9205-4325-9F07-E57D8A94AAB6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{00690685-064B-47E0-9540-B71E592B0466} = {00690685-064B-47E0-9540-B71E592B0466}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00690685-064B-47E0-9540-B71E592B0466}.Debug|Win32.ActiveCfg = Debug|Win32
+		{00690685-064B-47E0-9540-B71E592B0466}.Debug|Win32.Build.0 = Debug|Win32
+		{00690685-064B-47E0-9540-B71E592B0466}.Release|Win32.ActiveCfg = Release|Win32
+		{00690685-064B-47E0-9540-B71E592B0466}.Release|Win32.Build.0 = Release|Win32
+		{A1BE29EA-9205-4325-9F07-E57D8A94AAB6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A1BE29EA-9205-4325-9F07-E57D8A94AAB6}.Debug|Win32.Build.0 = Debug|Win32
+		{A1BE29EA-9205-4325-9F07-E57D8A94AAB6}.Release|Win32.ActiveCfg = Release|Win32
+		{A1BE29EA-9205-4325-9F07-E57D8A94AAB6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
